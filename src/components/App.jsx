@@ -34,7 +34,7 @@ function App() {
                     id={index} 
                     title={note.title} 
                     content={note.content} 
-                    onChecked={deleteNote}
+                    onDelete={deleteNote}
                     />
         })}
         <Footer />
